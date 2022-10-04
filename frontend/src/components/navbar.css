@@ -1,0 +1,13 @@
+.LINK{
+    color: white;
+    font-size: medium;
+    
+    text-decoration: none;
+}
+
+.LINK:hover{
+    color:yellow;
+    font-size: small;
+    text-decoration: none;
+    text-transform:uppercase;
+}
