@@ -14,7 +14,7 @@ mongoose.connect("mongodb+srv://varunsalazaar:Y4VvqYZsYJ2RxYzk@fsd.hh7hzcr.mongo
 
 app.use("/",require("./routes/eventRoute"));
 
-app.listen(3001, function() {
+app.listen(process.env.port || 3001, function() {
     console.log("The Express server is running on port 3001");
 
 })
